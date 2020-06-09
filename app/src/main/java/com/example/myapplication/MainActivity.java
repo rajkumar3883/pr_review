@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-    public void networkRequest(){
+    public void networkRequestt(){
         for(int j=0; j<i; j++){
             System.out.print("value of j "+j);
         }
