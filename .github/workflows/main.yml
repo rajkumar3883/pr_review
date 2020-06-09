@@ -42,6 +42,6 @@ jobs:
         run: ./gradlew runChecksForDanger
          # Run Danger
       - name: exicute danger
-        run: bundle exec danger --dangerfile='.github/Dangerfile'
+        run: bundle exec danger --dangerfile='.github/Dangerfile' --plugins_file='.github/Gemfile'
         env:
           DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
