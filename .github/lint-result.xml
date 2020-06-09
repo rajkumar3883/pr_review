@@ -1,0 +1,12 @@
+<problems>
+<problem>
+<file>file://$PROJECT_DIR$/.github/Dangerfile</file>
+<line>1</line>
+<module>testapp</module>
+<package><default></package>
+<entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/.github/Dangerfile"/>
+<problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+<description>Typo: In word 'eslint'</description>
+</problem>
+<problem>
+</problems>
