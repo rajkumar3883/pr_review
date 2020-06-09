@@ -4,4 +4,8 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# gem "rails"
+gem 'danger'
+gem 'danger-junit'
+gem 'danger-eslint'
+gem 'danger-android_lint'
+gem 'danger-checkstyle_format'
