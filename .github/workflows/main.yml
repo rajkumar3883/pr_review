@@ -41,8 +41,8 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew runChecksForDanger
          # Run Danger
-     # - name: bundle install
-       # run: bundle install
+      - name: bundle install
+        run: bundle install
       #- name: bundle exec danger init
        # run: bundle exec danger init   
       - name: exicute danger
