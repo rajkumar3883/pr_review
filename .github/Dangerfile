@@ -1,0 +1,10 @@
+warn("Big MR") if git.lines_of_code > 5
+
+#android_lint.lint_all_files = true
+#android_lint.lint_files
+# AndroidLint
+android_lint.report_file = ".github/lint-result.xml"
+android_lint.skip_gradle_task = true
+android_lint.filtering = true
+android_lint.severity = "Warning"
+android_lint.lint(inline_mode: true)
