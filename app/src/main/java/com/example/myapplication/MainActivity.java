@@ -14,6 +14,16 @@ public class MainActivity extends AppCompatActivity {
     private void onView(){
         i=10;
     }
+    private void onView2(){
+        i=10;
+    }
+    private void onView3(){
+        i=10;
+    }
+    private void onView4(){
+        i=10;
+        networkRequest();
+    }
     public void networkRequest(){
         for(int j=0; j<i; j++){
             System.out.print("value of j "+j);
