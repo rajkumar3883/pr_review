@@ -28,9 +28,13 @@ public class MainActivity extends AppCompatActivity {
         for(int j=0; j<i; j++){
             System.out.print("value of j "+j);
         }
-        networkRequestt();
-    }
+       // networkRequestt();
+        //
 
+    }
+public void newViewMethod(Bundle savedInstanceState){
+        // Todo
+}
 
 
 }
