@@ -28,11 +28,13 @@ public class MainActivity extends AppCompatActivity {
         for(int j=0; j<i; j++){
             System.out.print("value of j "+j);
         }
-        networkRequestt();
+       // networkRequestt();
     }
     public void networkRequest2(){
         onView4();
         for(int j=0; j<i; j++){
             System.out.print("value of j "+j);
         }}
+        private int k=10;
+    private int l="rr";
 }
