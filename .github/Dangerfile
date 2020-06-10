@@ -41,4 +41,4 @@ end
 android_lint.gradle_task = "runChecksForDanger"
 android_lint.filtering = true
 android_lint.severity = "Warning"
-android_lint.lint(inline_mode: true)
+android_lint.lint(inline_mode: false)
