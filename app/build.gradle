@@ -12,7 +12,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
-        quiet false;
+        quiet false
         checkAllWarnings true
         //warningsAsErrors true
         enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
