@@ -36,5 +36,5 @@ public class MainActivity extends AppCompatActivity {
             System.out.print("value of j "+j);
         }}
         private int k=10;
-    private int l="rr";
+    private int l=7;
 }
