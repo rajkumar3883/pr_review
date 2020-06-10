@@ -37,4 +37,14 @@ public class MainActivity extends AppCompatActivity {
         }}
         private int k=10;
     private int l=7;
+    private int m=8;
+    private int n=8;
+    private int o=8;
+    public void networkRequest3(){
+        onView4();
+        for(int j=0; j<i; j++){
+            System.out.print("value of j "+j);
+        }}
+
+
 }
