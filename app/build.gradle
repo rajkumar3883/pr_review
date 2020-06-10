@@ -14,7 +14,7 @@ android {
     lintOptions {
         quiet false
         checkAllWarnings true
-        //warningsAsErrors true
+        warningsAsErrors true
         enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
         showAll true
 
