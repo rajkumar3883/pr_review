@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         i=10;
         networkRequest();
     }
+     private void onView5(){
+    i=20;
+    System.out.print("values of i "+i);    
+    }
     private void onView6(){
     i=20;
     System.out.print("values of i "+i);    
