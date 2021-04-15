@@ -18,7 +18,7 @@ def exceptionMessages(file)
 end
 
 # Warning on big Pr
-warn("Big PR: Your pr contains more than 500 lines of code") if git.lines_of_code > 5
+warn("Big PR: Your pr contains more than 500 lines of code") if git.lines_of_code > 2
 # Mainly to encourage writing up some reasoning about the PR, rather than
 # just leaving a title
 if github.pr_body.length < 10
